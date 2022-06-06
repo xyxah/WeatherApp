@@ -1,13 +1,12 @@
 package com.geekbrains.weatherapp.ui
 
-import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.Fragment
+import androidx.lifecycle.ViewModelProvider
 import com.geekbrains.weatherapp.AppState
-import com.geekbrains.weatherapp.MainActivity
 import com.geekbrains.weatherapp.R
 import com.geekbrains.weatherapp.databinding.MainFragmentBinding
 import com.geekbrains.weatherapp.pojo.Weather
@@ -42,7 +41,7 @@ class MainFragment : Fragment() {
     }
 
     private fun renderData(appState: AppState) {
-        with (binding) {
+        with(binding) {
             when (appState) {
                 is AppState.Success -> {
                     val weatherData = appState.weatherData
