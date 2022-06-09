@@ -1,8 +1,10 @@
-package com.geekbrains.weatherapp
+package com.geekbrains.weatherapp.view
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.geekbrains.weatherapp.ui.MainFragment
+import com.geekbrains.weatherapp.R
+import com.geekbrains.weatherapp.view.details.DetailsFragment
+import com.geekbrains.weatherapp.view.main.MainFragment
 
 class MainActivity : AppCompatActivity() {
 
@@ -16,5 +18,4 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    val apiKey = "972d8c9e-e8f1-447c-b2a7-bd6c303c8f34"
 }
