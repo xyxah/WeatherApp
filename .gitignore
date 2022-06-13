@@ -7,3 +7,4 @@
 .externalNativeBuild
 .cxx
 local.properties
+/app/src/main/java/com/geekbrains/weatherapp/model/Keys.kt
